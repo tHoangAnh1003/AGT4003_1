@@ -1,4 +1,4 @@
-# Test layout for APP
+# Lib
 import pygame
 import pygame_gui
 import sys
@@ -28,8 +28,8 @@ cell_width = 150
 cell_height = 60
 
 
-# Test Data
-df = pd.read_csv('data.csv')
+# Data for App
+df = pd.read_csv('')  # Name file here
 df_show = df.head(5)
 df.fillna(0, inplace=True)
 
